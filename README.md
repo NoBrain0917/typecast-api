@@ -6,6 +6,7 @@ const typecast = require("typecast.js");
 typecast.init(email, password) //타입캐스트 계정이 필요합니다.
 typecast.importVoice(something) // 임의의 목소리
 typecast.importVoice(something, actor_name) // 목소리 지정
+//Promise 이므로 알아서 async 또는 then
 //약 소요시간 5~10초
 ```
 ## Actor Names
